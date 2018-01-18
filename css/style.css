@@ -1,0 +1,214 @@
+body{
+	width: 100%;
+}
+.intro-2 {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.navbar .nav-item.active {
+    border-left-color: rgb(68, 68, 68);
+    border-left-width: 3px;
+    border-left-style: solid;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-image-1 {
+    background: url("../img/c-img1.jpeg");
+}
+
+.carousel-image-2 {
+    background: url("../img/c-img2.jpeg");
+}
+
+.carousel-image-3 {
+    background: url("../img/c-img3.jpeg");
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: url("../img/lights.jpg") no-repeat fixed;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.701961);
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: url("../img/media.jpg") 0px -300px fixed;
+}
+
+#video-play a {
+    color: rgb(255, 255, 255);
+}
+
+#main-footer {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+#page-header {
+    height: 300px;
+    color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(238, 238, 238);
+    border-bottom-style: solid;
+    padding-top: 100px;
+    background: url("../img/about-us-001.jpg") 0px 150px fixed;
+	background-size:cover;
+}
+#about{
+	padding-top: 50px;
+}
+#about img {
+    margin-top: -50px;
+}
+
+#faq.bg-dark {
+    color: rgb(255, 255, 255);
+    background: rgb(68, 68, 68);
+}
+
+
+
+#faq.bg-dark .card a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#faq.bg-dark .card-block,
+#faq.bg-dark .card-header {
+    background: rgb(51, 51, 51);
+}
+
+.book {
+	font-size: 30px;
+    border: 3px solid white;
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.home {
+    height: 300px;
+}
+
+#info {
+    margin-top: 50px;
+	margin-bottom: 50px;
+    height: 610px;
+}
+
+.contact-info-fa {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.intro-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.my-nav > a {
+    font-size: 90px;
+}
+
+
+#home-icons {
+	background-color:#20a7db;
+	color: white;
+}
+
+.news-letter-col-2 {
+	font-size: 25px;
+	color:#20a7db;
+	padding-right: 4px;
+
+}
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background: #3292a6; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+
+
+
+
+.services-full {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.services-full  h4{
+	color: #20a7db;;
+}
+
+.card-body-2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.blog-2 h4 {
+	color:#20a7db;
+	font-weight: 800;
+	font-size: 30px;
+}
+.blog-2 small{
+	font-weight: 800;
+}
+
+#contact h4 {
+	color: #20a7db;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+#contact h3 {
+	color: #20a7db;
+	font-weight: 700;
+	font-size: 35px;
+}
+#staff h4 {
+	color: #20a7db;
+}
+.list-time{
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	color: darkgray;
+}
