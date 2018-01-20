@@ -1,88 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-    <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>BeDentise</title>
-</head>
-
-<body>
-   <header>
-   	<div style="background-color:#20a7db;" class="container-fluid">
-        <div class="row intro-1">
-            <div class="col-md-6">
-                <div class="display-4 d-flex flex-row row-hl align-items-end">
-                    <a style="color: lightgray;" class="btn btn-default" href="path/to/settings" aria-label="Settings">
-                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a class="btn btn-default" style="color: lightgray;" href="path/to/settings" aria-label="Settings">
-                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a class="btn btn-default" style="color: lightgray;" href="path/to/settings" aria-label="Settings"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                </div>
-
-            </div>
-            <div class="col-md-6">
-                <h3 style="font-weight:800px;">Make an Appointment now <span style="font-style:italic">Book Now!</span> </h3>
-            </div>
-        </div>
-    </div>
-    <!-- end of top intro 1 -->
-
-    <div class="container-fluid">
-       <div class="row">
-       	<div class="col-sm-6">
-       		<h1 style="font-weight: bold;" class="display-3"><span style="color: #20a7db;">Be</span>Dentist</h1>
-       	</div>
-       	<div class="col-sm-6">
-       		<div class="float-right ">
-       			<ul class="list-time">
-       				<li>
-       					<i class="fa fa-phone-square" aria-hidden="true"></i>  12323-2323-123
-       				</li>
-       				<li>
-       					<i class="fa fa-clock-o" aria-hidden="true"></i>  mon-sat 12-9 <br>
-       				</li>
-       			</ul>
-       		</div>
-       	</div>
-		</div>
-    </div>
-   </header>
-
-   <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+<?php
+// add header
+include 'include/header_main.php'; 
+?>
+<nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <a href="index.html" class="navbar-brand">Rapid Panther</a>
+          <a href="index.php" class="navbar-brand"><span style="color:#20a7db;">Be</span> Dentist</a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link">Home </a>
+              <a href="index.php" class="nav-link">Home </a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About Us </a>
+              <a href="about.php" class="nav-link">About Us </a>
           </li>
           <li class="nav-item ">
-            <a href="services.html" class="nav-link">Services </a>
+              <a href="services.php" class="nav-link">Services </a>
           </li>
           <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog </a>
+              <a href="blog.php" class="nav-link">blogs </a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact </a>
+              <a href="contact.php" class="nav-link">Contact </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
     <!-- SHOWCASE SLIDER -->
     <section id="showcase">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -275,130 +221,7 @@
     </div>
   </section>
 PHOTO GALLERY -->
-    <!-- NEWSLETTER SECTION -->
-    <section id="newsletter" class="text-center p-5 bg-inverse text-white">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 mb-4 text-center">
-                    <h2><span style="color:#20a7db ;">Be</span>DENTIST</h2>
-                    <p class="lead" style="color:darkgray;">
-                        BeDentist Dental clinic is here to fix any dental health concern you might have. Our diverse team of professionals and our customer service oriented approach will make you for once feel comfortable while sitting in a dentist's chair!
-                    </p>
-                </div>
-
-                <div class="col-md-4">
-                    <h3>Opening hours</h3>
-                    <div class="p-2 item-hl">
-                        <i class="fa fa-clock-o news-letter-col-2" aria-hidden="true"></i><span style="color: darkgray">Opening hours:Mon–Fri: 9am–6pm;
-                        <br> Sun: 10am–1pm</span>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <h3>Contact info</h3>
-                    <div class="d-flex flex-column row-h1">
-                        <div class="p-2 item-hl">
-                            <i class="fa fa-phone news-letter-col-2" aria-hidden="true"></i> 5555-555-555
-                        </div>
-                        <div class="p-2 item-hl "><i class="fa fa-envelope news-letter-col-2" aria-hidden="true"></i> Yash@gmail.com
-                        </div>
-                        <div class="p-2 item-hl ">
-                            <i class="fa fa-map-marker news-letter-col-2" aria-hidden="true"></i> Location
-                        </div>
-                    </div>
-                </div>
-
-                <!--
-        <div class="col">
-          <h1>Signup For Our Newsletter</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolor itaque iure sequi rerum dolorem labore delectus, voluptas ipsa error.</p>
-          <form class="form-inline justify-content-center">
-            <label class="sr-only" for="name">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
-
-            <label class="sr-only" for="email">Email</label>
-            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
-
-            <button class="btn btn-primary" type="submit">Submit</button>
-          </form>
-        </div>
--->
-            </div>
-        </div>
-    </section>
-
-    <footer id="main-footer" class="p-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p>Copyright 2017 &copy; 2017 <span style="color:#20a7db;" >Be</span>Dentist</p>
-        </div>
-        <div class="col-sm-6 ">
-        	<div class="float-right">
-                <div class="d-flex flex-row row-hl align-items-end">
-                    <a style="color: #20a7db;" class="btn btn-default" href="path/to/settings" aria-label="Settings">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a class="btn btn-default" style="color: #20a7db;" href="path/to/settings" aria-label="Settings">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a class="btn btn-default" style="color: #20a7db;" href="path/to/settings" aria-label="Settings"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                </div>
-                </div>
-
-          </div>
-      </div>
-    </div>
-  </footer>
-
-    <!-- VIDEO MODAL -->
-    <div class="modal fade" id="videoModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button class="close" data-dismiss="modal"><span>×</span>
-                    </button>
-                    <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- CONTACT MODAL -->
- <div class="modal fade" id="contactModal">
-   <div class="modal-dialog">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-         <button class="close" data-dismiss="modal"><span>&times;</span></button>
-       </div>
-       <div class="modal-body">
-         <form>
-           <div class="form-group">
-             <label for="name">Name</label>
-             <input type="text" class="form-control" id="name">
-           </div>
-           <div class="form-group">
-             <label for="email">Email</label>
-             <input type="email" class="form-control" id="email">
-           </div>
-           <div class="form-group">
-             <label for="message">Message</label>
-             <textarea class="form-control" id="message"></textarea>
-           </div>
-         </form>
-       </div>
-       <div class="modal-footer">
-         <button class="btn btn-primary btn-block">Submit</button>
-       </div>
-     </div>
-   </div>
- </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
+  <?php
+  // add footer
+  include 'include/footer_main.php';
+  
