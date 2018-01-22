@@ -64,42 +64,81 @@ include 'include/header_main.php';
             <div class="card-block">
               <h3 class="text-center">Please fill out this form to contact us</h3>
               <hr>
+              <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+              <?php
+              $submit = filter_input(INPUT_POST, "submit");
+              if(isset($submit)){
+                 $firsstname = filter_input(INPUT_POST, "firstname");
+                 $lastname = filter_input(INPUT_POST, "lastname");
+                 $email = filter_input(INPUT_POST, "email");
+                 $cnumber = filter_input(INPUT_POST, "cnumber");
+                 $date = filter_input(INPUT_POST, "date");
+                 $message = filter_input(INPUT_POST, "message");
+                 
+                 //validations
+                 if(empty($firsstname) and empty($lastname) and empty($email) and empty($cnumber) and empty($date)){
+                     echo "Required filed cant be empty";
+                 }else{
+                     
+                     echo "We Inform Y ou Shortly";
+                 }
+                 
+                 
+              }
+              
+              ?>    
+            
               <div class="row">
                 <div class="col-md-6">
+                    <label>First Name</label>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="First Name">
+                      <input type="text" name="firstname" class="form-control" placeholder="First Name">
                   </div>
                 </div>
                 <div class="col-md-6">
+                    <label>Last Name</label>
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Last Name">
+                      <input type="text" name="lastname" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                    <label>Email</label>
+                  <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <label>Contact Number</label>
+                  <div class="form-group">
+                      <input type="tel" name="cnumber" class="form-control" placeholder="Phone Number">
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
+                  <div class="col-md-6">
+                      <label>Select Date</label>
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone Number">
+                      <input type="date" name="date" class="form-control" placeholder="Last Name">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
+                    <label>Message</label>
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Message"></textarea>
+                      <textarea name="message" class="form-control" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <input type="submit" class="btn btn-outline-danger btn-block" value="Submit">
+                    <input type="submit" name="submit" class="btn btn-outline-danger btn-block" value="Submit">
                 </div>
               </div>
+              </form>
             </div>
           </div>
         </div>

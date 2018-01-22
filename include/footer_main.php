@@ -104,24 +104,42 @@
          <button class="close" data-dismiss="modal"><span>&times;</span></button>
        </div>
        <div class="modal-body">
-         <form>
+           <?php
+//           if(isset($_POST['submit'])){
+//               echo $data = $_POST['firstname'];
+//           }
+           ?>
+           <form action="" method="post">
            <div class="form-group">
-             <label for="name">Name</label>
-             <input type="text" class="form-control" id="name">
+             <label for="name">First Name</label>
+             <input type="text" name="firstname" class="form-control" id="name">
+           </div>
+             <div class="form-group">
+             <label for="name">Last Name</label>
+             <input type="text" name="lastname" class="form-control" id="name">
+           </div>
+             <div class="form-group">
+             <label for="name">Contact Number</label>
+             <input type="number" name="phone" class="form-control" id="name">
            </div>
            <div class="form-group">
              <label for="email">Email</label>
-             <input type="email" class="form-control" id="email">
+             <input type="email" name="email" class="form-control" id="email">
+           </div>
+             <div class="form-group">
+             <label for="message">Date</label>
+             <input type="date" name="date" class="form-control" id="email">
            </div>
            <div class="form-group">
              <label for="message">Message</label>
              <textarea class="form-control" id="message"></textarea>
            </div>
-         </form>
-       </div>
-       <div class="modal-footer">
+        <div class="modal-footer">
          <button class="btn btn-primary btn-block">Submit</button>
        </div>
+         </form>
+       </div>
+       
      </div>
    </div>
  </div>

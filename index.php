@@ -20,7 +20,7 @@ include 'include/header_main.php';
               <a href="services.php" class="nav-link">Services </a>
           </li>
           <li class="nav-item">
-              <a href="blog.php" class="nav-link">blogs </a>
+              <a href="blog.php" class="nav-link">Blog </a>
           </li>
           <li class="nav-item">
               <a href="contact.php" class="nav-link">Contact </a>
@@ -68,7 +68,7 @@ include 'include/header_main.php';
                             <h1 class="display-2" style="font-weight: 900">Appointments</h1>
                             <p class="lead">Booking an appointment at our dental clinic is as easy as it gets...</p>
                             <p>You will be able to schedule a convenient time for your meeting with our dentists with just 2 clicks!</p>
-                            <a href="#" class="btn btn-success btn-lg">Book An Apponitment</a>
+                            <a href="#" data-toggle="modal" data-target="#contactModal" class="btn btn-success btn-lg">Book An Appointment</a>
                         </div>
                     </div>
                 </div>
