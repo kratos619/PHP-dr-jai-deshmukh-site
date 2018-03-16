@@ -1,4 +1,5 @@
 <?php
+ob_start();
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
@@ -77,7 +78,7 @@
                     <a class="btn btn-default" style="color: #20a7db;" href="path/to/settings" aria-label="Settings"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
                 </div>
-
+<!--<button type="button"  id="myBtn" class="btn btn-primary" >-->
           </div>
       </div>
     </div>
@@ -104,45 +105,39 @@
          <button class="close" data-dismiss="modal"><span>&times;</span></button>
        </div>
        <div class="modal-body">
-           <?php
-//           if(isset($_POST['submit'])){
-//               echo $data = $_POST['firstname'];
-//           }
+       <?php
+        include("include/contactForm.php");
            ?>
-           <form action="" method="post">
-           <div class="form-group">
-             <label for="name">First Name</label>
-             <input type="text" name="firstname" class="form-control" id="name">
-           </div>
-             <div class="form-group">
-             <label for="name">Last Name</label>
-             <input type="text" name="lastname" class="form-control" id="name">
-           </div>
-             <div class="form-group">
-             <label for="name">Contact Number</label>
-             <input type="number" name="phone" class="form-control" id="name">
-           </div>
-           <div class="form-group">
-             <label for="email">Email</label>
-             <input type="email" name="email" class="form-control" id="email">
-           </div>
-             <div class="form-group">
-             <label for="message">Date</label>
-             <input type="date" name="date" class="form-control" id="email">
-           </div>
-           <div class="form-group">
-             <label for="message">Message</label>
-             <textarea class="form-control" id="message"></textarea>
-           </div>
-        <div class="modal-footer">
-         <button class="btn btn-primary btn-block">Submit</button>
        </div>
-         </form>
-       </div>
-       
+
      </div>
    </div>
+
  </div>
+
+
+<!--Thankx modal-->
+<!--<!-- Button trigger modal -->
+
+<!--    Launch demo modal-->
+<!--</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="thankxModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Thanks</p>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -150,6 +145,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
      <script type="text/javascript" src="js/slick.js"></script>
     <script src="js/main.js"></script>
+<script src="js/aos.js"></script>
+
+<script>
+
+</script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
 

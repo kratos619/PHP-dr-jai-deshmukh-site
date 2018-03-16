@@ -18,7 +18,9 @@
   <link rel="stylesheet" href="css/slick-theme.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
-    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/aos.css">
+       <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/animate.css" />
     <title>BeDentise</title>
 </head>
 
@@ -51,7 +53,7 @@
        		<h1 style="font-weight: bold;" class="display-3"><span style="color: #20a7db;">Be</span>Dentist</h1>
        	</div>
        	<div class="col-sm-6">
-       		<div class="float-right ">
+       		<div class="float-right timing-and-day">
        			<ul class="list-time">
        				<li>
        					<i class="fa fa-phone-square" aria-hidden="true"></i>  12323-2323-123

@@ -1,5 +1,6 @@
 body{
-	width: 100%;
+
+    overflow-x:hidden;
 }
 .intro-2 {
     border-bottom-width: 2px;
@@ -211,4 +212,10 @@ body{
 	font-size: 25px;
 	font-weight: 500;
 	color: darkgray;
+}
+
+@media only screen and (max-width: 600px) {
+    .timing-and-day{
+
+    }
 }

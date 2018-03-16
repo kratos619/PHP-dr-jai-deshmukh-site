@@ -42,9 +42,9 @@ include 'include/header_main.php';
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block text-left ">
                             <h1 style="color:#20a7db;font-weight: bolder;" class="display-4">Dr.Yash </h1>
-                            <p class="lead" style="color: darkgray; font-size: 25px; font-weight: 800;">Dr. yash's dental clinic welcomes you! Book an Appointment
+                            <p class="lead text-danger" style="font-size: 25px; font-weight: 800;">Dr. yash's dental clinic welcomes you! Book an Appointment
                             </p>
-                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#contactModal">Book an Appointment</a>
+<!--                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#contactModal">Book an Appointment</a>-->
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ include 'include/header_main.php';
                         <h1 style="height: 72px;">How we can help...</h1>
                         <p class="hidden-sm-down" style="">We offer a wide range of procedures to help you get the perfect smile. Book an Appointment
                         </p>
-                        <a href="#" class="btn btn-success btn-lg" style="">Book An Apponitment</a>
+                        <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#contactModal" style="">Book An Apponitment</a>
                     </div>
                 </div>
             </div>
@@ -137,21 +137,21 @@ include 'include/header_main.php';
 
             <div class="row">
 
-                <div class="col-md-4 mb-4 text-center">
+                <div data-aos="fade-right" class="col-md-4 mb-4 text-center">
                     <div class="book">
                         <i class="fa fa-book mb-2" aria-hidden="true"></i>
                     </div>
                     <h2 style="font-weight: 900;">Easy booking</h2>
                     <p class="lead"  style="font-weight: 500;">Booking an appointment at our dental clinic is as easy as doing 2 clicks!</p>
                 </div>
-                <div class="col-md-4 mb-4 text-center">
+                <div data-aos="fade-up" class="col-md-4 mb-4 text-center">
                     <div class="book">
                         <i class="fa fa-users  mb-2"></i>
                     </div>
                     <h2  style="font-weight: 900;">Experience</h2>
                     <p class="lead"  style="font-weight: 500;">Combined, our 5 dentists have over half a century of practical experience. They are ready to put it to action for you!</p>
                 </div>
-                <div class="col-md-4 mb-4 text-center">
+                <div data-aos="fade-left" class="col-md-4 mb-4 text-center">
                     <div class="book">
                         <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                     </div>
