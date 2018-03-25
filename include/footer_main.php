@@ -146,14 +146,10 @@ ob_start();
      <script type="text/javascript" src="js/slick.js"></script>
     <script src="js/main.js"></script>
 <script src="js/aos.js"></script>
-
-<script>
-
-</script>
 <script>
     AOS.init();
 </script>
-
+<script src="js/FormValidationAndAnimation.js"></script>
 </body>
 </html>
 

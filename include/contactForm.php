@@ -1,28 +1,25 @@
-<form action="index.php" method="post">
-               <?php
-               $warningClass = "animated infinite bounce";
-               $warningnull = "";
-               if(isset($_POST['submit'])) {
-                   $firstname = $_POST['firstname'];
-                   $lastname = $_POST['lastname'];
-                   $phone = $_POST['phone'];
-                   $email = $_POST['email'];
-                   $date = $_POST['date'];
-                 }
-               else {//end of first if
-               }
-               ?>
+
+<?php
+if(isset($_POST['submit'])) {
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $date = $_POST['date'];
+}
+?>
+<form id="first_form" action="" method="post">
            <div class="form-group">
              <label for="name">First Name</label>
-             <input type="text" name="firstname" class="form-control" id="name">
+             <input value="" type="text" name="firstname" class="form-control"  id="fname">
            </div>
              <div class="form-group">
              <label for="name">Last Name</label>
-             <input type="text" name="lastname" class="form-control" id="name">
+             <input type="text" name="lastname" class="form-control" id="lname">
            </div>
              <div class="form-group">
              <label for="name">Contact Number</label>
-             <input type="number" name="phone" class="form-control" id="name">
+             <input type="number" name="phone" class="form-control" id="phone">
            </div>
            <div class="form-group">
              <label for="email">Email</label>
@@ -30,7 +27,7 @@
            </div>
              <div class="form-group">
              <label for="message">Date</label>
-             <input type="date" name="date" class="form-control" id="email">
+             <input type="date" name="date" class="form-control" id="Date">
            </div>
            <div class="form-group">
              <label for="message">Message</label>
@@ -40,10 +37,3 @@
          <input type="submit"  name="submit" class="btn btn-primary btn-block"/>
         </div>
          </form>
-
-         <script> 
-         
-         $("#name").on(function() {
-             if()
-         })
-         </script>
