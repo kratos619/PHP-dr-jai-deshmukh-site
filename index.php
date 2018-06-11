@@ -8,7 +8,7 @@ include 'include/header_main.php';
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-          <a href="index.php" class="navbar-brand"><span style="color:#20a7db;">Be</span> Dentist</a>
+          <a href="index.php" class="navbar-brand">Doctor<span style="color:#20a7db;">JD</span></a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
               <a href="index.php" class="nav-link">Home </a>
@@ -41,8 +41,8 @@ include 'include/header_main.php';
                 <div class="carousel-item carousel-image-1 active">
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block text-left ">
-                            <h1 style="color:#20a7db;font-weight: bolder;" class="display-4">Dr.Yash </h1>
-                            <p class="lead text-danger" style="font-size: 25px; font-weight: 800;">Dr. yash's dental clinic welcomes you! Book an Appointment
+                            <h1 style="color:#20a7db;font-weight: bolder;" class="display-4">Dr.Jay </h1>
+                            <p class="lead text-danger" style="font-size: 25px; font-weight: 800;">Dr. Jay's dental clinic welcomes you! Book an Appointment
                             </p>
 <!--                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#contactModal">Book an Appointment</a>-->
                         </div>
@@ -89,8 +89,8 @@ include 'include/header_main.php';
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center">
-                    <h2 style="color:#20a7db ; font-weight: bold; font-size: 40px;" >Welcome to BeDentist</h2>
-                    <h4 style="font-weight: bold;color:#20a7db ;">Dental clinic BeDentist welcomes you!</h4>
+                    <h2 style="color:#20a7db ; font-weight: bold; font-size: 40px;" >Welcome to JD Clinic</h2>
+                    <h4 style="font-weight: bold;color:#20a7db ;">Dental clinic JD-Clinic welcomes you!</h4>
                     <br>
                     <p>We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our patients! Of course, we always complement our main services with a customer service oriented approach.</p>
 
