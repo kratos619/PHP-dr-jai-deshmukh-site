@@ -4,10 +4,10 @@
   (
   array(
       "id" => 0,
-      "full_name" => "First Name", 
-      "education" => "gradudaton, post Gaduation, specality ect",
+      "full_name" => "Akhilesh Shevale",
+      "education" => "BDS, MDS(Periodontolgy and Oral Implantology),Fellow Academy of General Education, Manipal",
       "hobbies" => "sport, news paper , cricket n etc",
-      "about_dr" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint similique iure assumenda suscipit adipisci tempore sunt iste, possimus illo nihil!" ,
+      "about_dr" => "Hi My Name Is Dr. Akhilesh Shevale ,  " ,
       "linkfacebook" => 'www.facebook.com',
       "linktwitter" => 'www.twitter.com',
       "linkgmail" => 'www.gmail.com', 
@@ -16,7 +16,7 @@
       array(
       "id" => 1,
       "full_name" => "First Name", 
-           "education" => "gradudaton, post Gaduation, specality ect",
+      "education" => "gradudaton, post Gaduation, specality ect",
       "hobbies" => "sport, news paper , cricket n etc",
       "about_dr" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint similique iure assumenda suscipit adipisci tempore sunt iste, possimus illo nihil!" ,
       "linkfacebook" => 'www.facebook.com',
