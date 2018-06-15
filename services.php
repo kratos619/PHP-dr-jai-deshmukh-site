@@ -44,7 +44,9 @@ include 'include/header_main.php';
 
   
   <!-- sercives Section -->
-
+<?php
+include ('services-details.php');
+?>
   <section class="services-full">
   <div class="container">
     <div class="row">
@@ -52,29 +54,31 @@ include 'include/header_main.php';
         <div class="card" style="border:none;" >
           <img class="card-img-top img-fluid" src="img/services_!.jpg" alt="Card image cap">
           <div  class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h4 class="card-title text-center"><?php echo $Services[0]["name"];?></h4>
+            <p class="card-text lead"><?php echo $Services[0]["about"];?></p>
             
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card" style="border:none;" >
-          <img class="card-img-top img-fluid" src="img/services_2.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="img/<?php echo $Services[1]["img"];?>" alt="Card image cap">
           <div class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+
+              <h4 class="card-title text-center"><?php echo $Services[1]["name"];?></h4>
+              <p class="card-text lead"><?php echo $Services[1]["about"];?></p>
+
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card" style="border:none;">
-          <img class="card-img-top img-fluid" src="img/services-3.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="img/<?php echo $Services[2]["img"];?>" alt="Card image cap">
           <div class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+
+              <h4 class="card-title text-center"><?php echo $Services[2]["name"];?></h4>
+              <p class="card-text lead"><?php echo $Services[2]["about"];?></p>
+
           </div>
         </div>
       </div>
@@ -83,21 +87,23 @@ include 'include/header_main.php';
      <div class="row services-full">
       <div class="col-md-4">
         <div class="card" style="border:none;">
-          <img class="card-img-top img-fluid" src="img/services-4.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="img/<?php echo $Services[3]["img"];?>" alt="Card image cap">
           <div class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            
+
+              <h4 class="card-title text-center"><?php echo $Services[3]["name"];?></h4>
+              <p class="card-text lead"><?php echo $Services[3]["about"];?></p>
+
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card" style="border:none;">
-          <img class="card-img-top img-fluid" src="img/services_2.jpg" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="img/<?php echo $Services[4]["img"];?>" alt="Card image cap">
           <div class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+
+              <h4 class="card-title text-center"><?php echo $Services[4]["name"];?></h4>
+              <p class="card-text lead"><?php echo $Services[4]["about"];?></p>
+
           </div>
         </div>
       </div>
@@ -105,9 +111,10 @@ include 'include/header_main.php';
         <div class="card" style="border:none;">
           <img class="card-img-top img-fluid" src="img/services-3.jpg" alt="Card image cap">
           <div class="card-body card-body-2">
-            <h4 class="card-title display-4">Card title</h4>
-            <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+
+              <h4 class="card-title text-center"><?php echo $Services[5]["name"];?></h4>
+              <p class="card-text lead"><?php echo $Services[5]["about"];?></p>
+
           </div>
         </div>
       </div>
@@ -127,14 +134,14 @@ include 'include/header_main.php';
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Question One?
+                    How Can I Get Appointment?
                   </a>
                 </h5>
               </div>
 
               <div id="collapseOne" class="collapse">
                 <div class="card-block">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laudantium, sint fugiat nobis veritatis, eligendi tempora. Recusandae, quod quibusdam accusamus magnam id aliquam distinctio quaerat maxime. Esse nemo cum architecto.
+                You Can Call Us Or Mail Us.. Our Team Always Available For Response...
                 </div>
               </div>
             </div>
@@ -143,14 +150,14 @@ include 'include/header_main.php';
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    Question Two?
+                    Where Is Clinic ?
                   </a>
                 </h5>
               </div>
 
               <div id="collapseTwo" class="collapse">
                 <div class="card-block">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laudantium, sint fugiat nobis veritatis, eligendi tempora. Recusandae, quod quibusdam accusamus magnam id aliquam distinctio quaerat maxime. Esse nemo cum architecto.
+                Location.........
                 </div>
               </div>
             </div>
@@ -159,14 +166,14 @@ include 'include/header_main.php';
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    Question Three?
+                    Are They Have Qualified Doctors?
                   </a>
                 </h5>
               </div>
 
               <div id="collapseThree" class="collapse">
                 <div class="card-block">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laudantium, sint fugiat nobis veritatis, eligendi tempora. Recusandae, quod quibusdam accusamus magnam id aliquam distinctio quaerat maxime. Esse nemo cum architecto.
+                Yes... We Have Highly Professional well Qualify Doctors..They all Complete There Education from Recognized And Well Known University
                 </div>
               </div>
             </div>
@@ -179,14 +186,14 @@ include 'include/header_main.php';
               <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                    Question Four?
+                    What About Facility's ?
                   </a>
                 </h5>
               </div>
 
               <div id="collapseFour" class="collapse">
                 <div class="card-block">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laudantium, sint fugiat nobis veritatis, eligendi tempora. Recusandae, quod quibusdam accusamus magnam id aliquam distinctio quaerat maxime. Esse nemo cum architecto.
+                    We Provide All Kind Facility's with Advance and Safe Equipment
                 </div>
               </div>
             </div>

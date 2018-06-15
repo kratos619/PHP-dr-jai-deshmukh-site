@@ -69,7 +69,7 @@ include 'dr_details.php'; ?>
           <h1 class="text-primary pb-3">
             Medical Team
           </h1>
-            <p class="lead pb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint similique iure assumenda suscipit adipisci tempore sunt iste, possimus illo nihil!</p>
+            <p class="lead pb-3"> We Have Very Professional And Qualifide Medical Team </p>
         </div>
 
         <div class="row pt-3">
@@ -104,7 +104,7 @@ include 'dr_details.php'; ?>
             <div class="col-lg-3 col-md-6 col-sm-12 py-5">
             <div class="card">
                 <img src="img/<?php echo $dr_deatils[1]["image"]; ?>" alt="" class="img-fluid rounded-circle w-50 mb-3">
-             <a href="dr_full_info.php?full_info=<?php echo $dr_deatils[1]["id"]; ?>"><h3 style="color:black;">Dr. <?php echo $dr_deatils[1]["full_name"]; ?></h3></a>
+             <a href="dr_full_info.php?full_info=<?php echo $dr_deatils[1]["id"]; ?>"><h4 style="color:black;">Dr. <?php echo $dr_deatils[1]["full_name"]; ?></h4></a>
               
               <p><?php echo $dr_deatils[1]["about_dr"]; ?></p>
               <div class="d-flex flex-row justify-content-center">
@@ -124,7 +124,7 @@ include 'dr_details.php'; ?>
             <div class="col-lg-3 col-md-6 col-sm-12 py-5">
             <div class="card">
                 <img src="img/<?php echo $dr_deatils[2]["image"]; ?>" alt="" class="img-fluid rounded-circle w-50 mb-3">
-             <a href="dr_full_info.php?full_info=<?php echo $dr_deatils[2]["id"]; ?>"><h3 style="color:black;">Dr. <?php echo $dr_deatils[2]["full_name"]; ?></h3></a>
+             <a href="dr_full_info.php?full_info=<?php echo $dr_deatils[2]["id"]; ?>"><h4 style="color:black;">Dr. <?php echo $dr_deatils[2]["full_name"]; ?></h4></a>
               
               <p><?php echo $dr_deatils[2]["about_dr"]; ?></p>
               <div class="d-flex flex-row justify-content-center">
@@ -246,20 +246,20 @@ include 'dr_details.php'; ?>
           <div class="slider">
             <div>
               <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aspernatur?</p>
-                <footer class="blockquote-footer">John Doe From <cite title="Company 1">Company 1</cite></footer>
+                <p class="mb-0">Very professional and gentle. The staff is very accommodating and the office is very stunning and clean </p>
+                <footer class="blockquote-footer">Shubham Palaspagar For <small><cite title="Company 1"> Dental treatment</cite></small> </footer>
               </blockquote>
             </div>
             <div>
               <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aspernatur?</p>
-                <footer class="blockquote-footer">Steve Smith From <cite title="Company 2">Company 2</cite></footer>
+                <p class="mb-0">Best dental clinic n highly experienced doctor.</p>
+                <footer class="blockquote-footer">dheeraj sumesan <small><cite title="Company 1"> Dental treatment</cite></small></footer>
               </blockquote>
             </div>
             <div>
               <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aspernatur?</p>
-                <footer class="blockquote-footer">Wendy Johnson From <cite title="Company 3">Company 3</cite></footer>
+                <p class="mb-0">Good faculties,nd very friendly behavior</p>
+                <footer class="blockquote-footer">Rohit Tijare For <small><cite title="Company 1"> Dental treatment</cite></small></footer>
               </blockquote>
             </div>
           </div>

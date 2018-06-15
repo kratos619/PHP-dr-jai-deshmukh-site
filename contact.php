@@ -36,7 +36,7 @@ include 'include/header_main.php';
       <div class="row">
         <div class="col-md-6 offset-md-3 text-center">
           <h1 style="font-weight: 900;color:#20a7db; " class="display-4" >Contact Us</h1>
-          <p class="lead" style="font-size: 30px; font-weight: 500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ea.</p>
+          <p class="lead" style="font-size: 30px; font-weight: 500">You can easily reach us 24/7 via Submitting Contact Form</p>
         </div>
       </div>
     </div>
@@ -49,13 +49,14 @@ include 'include/header_main.php';
           <div class="card p-4">
             <div class="card-block">
               <h4>Get In Touch</h4>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="lead">You can easily reach us 24/7 via Submitting Contact From</p>
               <h4>Address</h4>
-              <p class="lead">550 Main st, Mumbai MH</p>
+              <p class="lead">Mama Road Dharampeth Nagpur, Maharashtra 440010 India</p>
               <h4>Email</h4>
               <p class="lead">test@test.com</p>
               <h4>Phone</h4>
-              <p class="lead">111-222-5555</p>
+              <p class="lead">9096160005 </p>
+              <p class="lead">9766761308 </p>
             </div>
           </div>
         </div>
@@ -148,12 +149,13 @@ include 'include/header_main.php';
 <section id="map">
     	<div class="container-fluid">
     		<div class="row">
-    			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15064.818387150359!2d72.9644533!3d19.2734669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1515462409358" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    			<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d119080.4272393296!2d78.99295657819304!3d21.1419153986396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bd4c0604033d9b5%3A0x1feb52eacc1e8cbd!2sDoctor+JD-+Jai+Deshmukh+Dental+Clinic!3m2!1d21.1419298!2d79.062997!5e0!3m2!1sen!2sin!4v1529042427857" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     		</div>
     	</div>
     </section>
 
   <!-- STAFF SECTION -->
+<!--
   <section id="staff" class="py-5 text-center bg-inverse text-white">
     <div class="container">
       <h1 style="color:#20a7db;">Our Staff</h1>
@@ -182,6 +184,7 @@ include 'include/header_main.php';
       </div>
     </div>
   </section>
+-->
 
    <?php
   // add footer

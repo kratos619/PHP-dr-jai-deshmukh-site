@@ -54,7 +54,7 @@ include 'include/header_main.php';
                         <div class="carousel-caption d-none d-sm-block mb-5 text-left">
                             <h3 class="lead" style="font-size: 30px; font-weight: 900;">We’re always available for customers with emergent dental problems.</h3>
                             <div class="display-4">
-                            	<i style="color:#20a7db; font-weight: 900;" class="fa fa-phone" aria-hidden="true"></i><span style="color: white;"> 555-555-555</span>
+                            	<i style="color:#20a7db; font-weight: 900;" class="fa fa-phone" aria-hidden="true"></i><span style="color: white;"> 90961 60005</span>
                             </div>
                             <p class="lead " style="font-size: 27px; font-weight: 900;" >You can easily reach us 24/7 via the phone number below:</p>
 

@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" href="css/slick-theme.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
        <link rel="stylesheet" href="css/aos.css">
        <link rel="stylesheet" href="css/style.css">
        <link rel="stylesheet" href="css/animate.css" />
-    <title>BeDentise</title>
+       <title>Doctor JD- Jai Deshmukh Dental Clinic - Dental Clinic in Nagpur - Doctor JD dental care</title>
 </head>
-
-<body>
+   <style>
+       @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+   </style>
+   <body>
    <header>
    	<div style="background-color:#20a7db;" class="container-fluid">
         <div class="row intro-1">
@@ -41,7 +42,7 @@
 
             </div>
             <div class="col-md-6">
-                <h3 style="font-weight:800px;">Make an Appointment now <span style="font-style:italic">Book Now!</span> </h3>
+                <h3 style="font-weight:400px;">Make an Appointment now <span style="font-style:italic">Book Now!</span> </h3>
             </div>
         </div>
     </div>
@@ -50,16 +51,16 @@
     <div class="container-fluid">
        <div class="row">
        	<div class="col-sm-6">
-       		<h1 style="font-weight: bold;" class="display-3"><span style="color: #20a7db;">Be</span>Dentist</h1>
+       		<h1 style="font-weight: bold;" class="display-3">Doctor<span style="color: #20a7db;">&nbsp;JD</span></h1>
        	</div>
        	<div class="col-sm-6">
        		<div class="float-right timing-and-day">
        			<ul class="list-time">
        				<li>
-       					<i class="fa fa-phone-square" aria-hidden="true"></i>  12323-2323-123
+       					<i class="fa fa-phone-square" aria-hidden="true"></i>  90961 60005
        				</li>
        				<li>
-       					<i class="fa fa-clock-o" aria-hidden="true"></i>  Opening hours:Mon–Fri: 9am–6pm; Sun: 10am–1pm <br>
+       					<i class="fa fa-clock-o" aria-hidden="true"></i>  Opening hours:Mon–sat: 1am–9pm; Sun: Closed <br>
        				</li>
        			</ul>
        		</div>
