@@ -5,6 +5,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+$dr_web_name = "Doctor";
+$dr_web_initils =  "JD"
 ?>
 <!DOCTYPE html>
 <html lang="en">

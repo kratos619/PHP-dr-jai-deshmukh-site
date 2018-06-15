@@ -36,7 +36,7 @@ include 'include/header_main.php';
       <div class="row">
         <div class="col-md-6 offset-md-3 text-center">
           <h1  style="font-weight: 900;color:#20a7db; " class="display-2">Services</h1>
-          <p class="lead" style="font-size: 30px; font-weight: 500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ea.</p>
+          <p class="lead" style="font-size: 30px; font-weight: 500">We Provide Following Services</p>
         </div>
       </div>
     </div>
