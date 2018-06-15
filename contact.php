@@ -149,8 +149,9 @@ include 'include/header_main.php';
 <section id="map">
     	<div class="container-fluid">
     		<div class="row">
-    			<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d119080.4272393296!2d78.99295657819304!3d21.1419153986396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bd4c0604033d9b5%3A0x1feb52eacc1e8cbd!2sDoctor+JD-+Jai+Deshmukh+Dental+Clinic!3m2!1d21.1419298!2d79.062997!5e0!3m2!1sen!2sin!4v1529042427857" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    			<iframe class="" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d119080.4272393296!2d78.99295657819304!3d21.1419153986396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bd4c0604033d9b5%3A0x1feb52eacc1e8cbd!2sDoctor+JD-+Jai+Deshmukh+Dental+Clinic!3m2!1d21.1419298!2d79.062997!5e0!3m2!1sen!2sin!4v1529042427857"   width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     		</div>
+    		
     	</div>
     </section>
 
