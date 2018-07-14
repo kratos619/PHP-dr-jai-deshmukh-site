@@ -8,7 +8,7 @@ include 'include/header_main.php';
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-          <a href="index.php" class="navbar-brand"><span style="color:#20a7db;">Be</span> Dentist</a>
+          <a href="index.php" class="navbar-brand"> <img src="img/JDlogo.jpeg" height="70" width="70" alt="logo"> Doctor <span style="color:#20a7db;">JD</span></a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
               <a href="index.php" class="nav-link">Home </a>
@@ -62,7 +62,7 @@ include ('services-details.php');
       </div>
       <div class="col-md-4">
         <div class="card" style="border:none;" >
-          <img class="card-img-top img-fluid" src="img/<?php echo $Services[1]["img"];?>" alt="Card image cap">
+          <img class="card-img-top img-fluid service-img" src="img/<?php echo $Services[1]["img"];?>" alt="Card image cap">
           <div class="card-body card-body-2">
 
               <h4 class="card-title text-center"><?php echo $Services[1]["name"];?></h4>

@@ -8,7 +8,7 @@ include 'include/header_main.php';
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-          <a href="index.php" class="navbar-brand">Doctor<span style="color:#20a7db;">JD</span></a>
+          <a href="index.php" class="navbar-brand"> <img src="img/JDlogo.jpeg" height="70" width="70" alt="logo"> Doctor <span style="color:#20a7db;">JD</span></a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
               <a href="index.php" class="nav-link">Home </a>
@@ -40,9 +40,9 @@ include 'include/header_main.php';
             <div class="carousel-inner">
                 <div class="carousel-item carousel-image-1 active">
                     <div class="container">
-                        <div class="carousel-caption d-none d-md-block text-left ">
+                        <div class="carousel-caption d-none d-md-block text-left carousel-caption-one">
                             <h1 style="color:#20a7db;font-weight: bolder;" class="display-4">Dr.Jay </h1>
-                            <p class="lead text-danger" style="font-size: 25px; font-weight: 800;">Dr. Jay's dental clinic welcomes you! Book an Appointment
+                            <p class="lead text-danger" style="">Dr. Jay's dental clinic welcomes you! Book an Appointment
                             </p>
 <!--                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#contactModal">Book an Appointment</a>-->
                         </div>
@@ -51,10 +51,10 @@ include 'include/header_main.php';
 
                 <div class="carousel-item carousel-image-2">
                     <div class="container">
-                        <div class="carousel-caption d-none d-sm-block mb-5 text-left">
-                            <h3 class="lead" style="font-size: 30px; font-weight: 900;">We’re always available for customers with emergent dental problems.</h3>
+                        <div class="carousel-caption d-none d-sm-block mb-5 text-left text-warning">
+                            <h2 style="font-weight: 900;">We’re always available for customers with emergent dental problems.</h2>
                             <div class="display-4">
-                            	<i style="color:#20a7db; font-weight: 900;" class="fa fa-phone" aria-hidden="true"></i><span style="color: white;"> 90961 60005</span>
+                            	<i style="color:#20a7db; font-weight: 900;" class="fa fa-phone" aria-hidden="true"></i><span class="text-warning" > 90961 60005</span>
                             </div>
                             <p class="lead " style="font-size: 27px; font-weight: 900;" >You can easily reach us 24/7 via the phone number below:</p>
 
@@ -64,7 +64,7 @@ include 'include/header_main.php';
                 </div>
                 <div class="carousel-item carousel-image-3">
                     <div class="container">
-                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5 text-info">
                             <h1 class="display-2" style="font-weight: 900">Appointments</h1>
                             <p class="lead">Booking an appointment at our dental clinic is as easy as it gets...</p>
                             <p>You will be able to schedule a convenient time for your meeting with our dentists with just 2 clicks!</p>
@@ -105,7 +105,7 @@ include 'include/header_main.php';
                     </p>
                 </div>
                 <div class="col-sm-6 hidden-sm-down">
-                    <img src="img/macos-high-sierra-stock-5k-9l.jpg" class="img-fluid" alt="">
+                    <img src="img/SmileIsPriceless_new.jpeg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -117,9 +117,9 @@ include 'include/header_main.php';
         <div class="dark-overlay">
             <div class="row">
                 <div class="col">
-                    <div class="container pt-5">
-                        <h1 style="height: 72px;">How we can help...</h1>
-                        <p class="hidden-sm-down" style="">We offer a wide range of procedures to help you get the perfect smile. Book an Appointment
+                    <div class="container pt-5">            
+                        <h1>How we can help...</h1>
+                        <p>We offer a wide range of procedures to help you get the perfect smile. Book an Appointment
                         </p>
                         <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#contactModal" style="">Book An Apponitment</a>
                     </div>
@@ -131,8 +131,8 @@ include 'include/header_main.php';
     <!-- HOME ICON SECTION -->
     <section id="home-icons" class="py-5">
         <div class="container">
-          <div style="padding-bottom: 30px;">
-          	<center><h3 class="display-4" style="font-weight: bold;">Why choose the BeDentist clinic?</h3></center>
+          <div class="home-icon-heading" style="">
+          	<center><h3 class="display-4" style="font-weight: bold;">Why choose the Doctor JD clinic?</h3></center>
           </div>
 
             <div class="row">

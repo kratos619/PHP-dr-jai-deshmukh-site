@@ -8,7 +8,7 @@ include 'include/header_main.php';
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-          <a href="index.php" class="navbar-brand">Doctor <span style="color:#20a7db;">JD</span></a>
+          <a href="index.php" class="navbar-brand"> <img src="img/JDlogo.jpeg" height="70" width="70" alt="logo"> Doctor <span style="color:#20a7db;">JD</span></a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
               <a href="index.php" class="nav-link">Home </a>
@@ -37,7 +37,7 @@ include 'dr_details.php'; ?>
   <header id="page-header">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
+        <div class="col-md-6 offset-md-3 text-center about-us-heading">
           <h1 style="font-weight: 900;color:#20a7db; " class="display-2">About Us</h1>
           <p class="lead" style="font-size: 30px; font-weight: 500">Who we Are</p>
         </div>
@@ -50,11 +50,11 @@ include 'dr_details.php'; ?>
       <div class="row">
         <div class="col-md-6 align-self-center">
           <h4 style="font-weight: 900;color:#20a7db; " class="display-6">Our dental clinic has been founded in 2010. The founder is an honorable alumni of </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus tempora facilis commodi eum. Culpa harum incidunt corporis explicabo consequatur. Dolorem rem eius ipsam quo voluptate maxime, eaque. Necessitatibus, ut.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus tempora facilis commodi eum. Culpa harum incidunt corporis explicabo consequatur. Dolorem rem eius ipsam quo voluptate maxime, eaque. Necessitatibus, ut.</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus tempora facilis commodi eum. Culpa harum incidunt corporis explicabo consequatur. Dolorem rem eius ipsam quo voluptate maxime, eaque. Necessitatibus, ut.</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus tempora facilis commodi eum. Culpa harum incidunt corporis explicabo consequatur. Dolorem rem eius ipsam quo voluptate maxime, eaque. Necessitatibus, ut.</p>
         </div>
         <div class="col-md-6">
-          <img src="http://lorempixel.com/400/400/business/8" alt="" class="hidden-sm-down about-img img-fluid rounded-circle">
+          <img src="img/slide_img_three.jpeg" alt="" class="hidden-sm-down about-img img-fluid rounded-circle">
         </div>
       </div>
     </div>

@@ -44,7 +44,7 @@
       "linkfacebook" => 'www.facebook.com',
       "linktwitter" => 'www.twitter.com',
       "linkgmail" => 'www.gmail.com', 
-      "image" => "person2.jpg"
+      "image" => "DrRuchita.jpeg"
       ) 
   );
   

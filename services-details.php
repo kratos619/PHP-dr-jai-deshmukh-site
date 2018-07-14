@@ -15,23 +15,23 @@ $Services= array(
     array(
         "name" => "Gum Surgery",
        "about" => "A gingival graft, also called gum graft or periodontal plastic surgery, is a generic name for any of a number of periodontal surgical procedures in which the gum tissue is grafted.",
-    "img" => "Gumsurgery.jpg"
+    "img" => "Gumsurgery-new.jpeg"
     ),
     array(
         "name" => "Smile Correction",
         "about" => "A smile makeover is the process of improving the appearance of the smile through one or more cosmetic dentistry procedures",
-"img" => "services_2.jpg"
+"img" => "SmileIsPriceless.jpeg"
     ),
     array(
         "name" => "Orthodontic Treatment",
         "about" => "Orthodontic treatment is a way of straightening or moving teeth, to improve the appearance of the teeth ",
-        "img" => "Orthotreatment.png"
+        "img" => "Orthotreatment-new.jpeg"
     ),
 
     array(
         "name" => "Wisdom Tooth Problems",
         "about" => " impacted wisdom teeth don't cause any symptoms, and the only way your dentist knows",
-        "img" => "wisdomProblem.jpg"
+        "img" => "wisdomProblem-new.jpeg"
     ),
 
     array(

@@ -13,13 +13,13 @@ ob_start();
             <div class="row">
 
                 <div class="col-md-4 mb-4 text-center">
-                    <h2><span style="color:#20a7db ;">Be</span>DENTIST</h2>
+                    <h2> Doctor <span style="color:#20a7db;">JD</span></h2>
                     <p class="lead" style="color:darkgray;">
-                        BeDentist Dental clinic is here to fix any dental health concern you might have. Our diverse team of professionals and our customer service oriented approach will make you for once feel comfortable while sitting in a dentist's chair!
+                        Are Dental clinic is here to fix any dental health concern you might have. Our diverse team of professionals and our customer service oriented approach will make you for once feel comfortable while sitting in a dentist's chair!
                     </p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <h3>Opening hours</h3>
                     <div class="p-2 item-hl">
                         <i class="fa fa-clock-o news-letter-col-2" aria-hidden="true"></i><span style="color: darkgray">Opening hours:Mon–Fri: 1am–9pm;
@@ -66,7 +66,7 @@ ob_start();
             <div class="row">
                 <div class="col-sm-6">
                     <p>Copyright
-                        <?php echo date('Y'); ?> <span style="color:#20a7db;">Be</span>Dentist</p>
+                        <?php echo date('Y'); ?> <span style="color:#20a7db;"> Doctor <span style="color:#20a7db;">JD</span>
                 </div>
                 <div class="col-sm-6 ">
                     <div class="float-right">
