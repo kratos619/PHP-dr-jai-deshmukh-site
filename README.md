@@ -6,6 +6,10 @@ A Personal Site With Dashboard to Manage Pateints , Doctors, Users , Treatments 
 Visit- http://dentaltourismonline.in/
 ```
 
+## Note
+
+Its A Private Repostiory So You Cant See the Commites
+
 ## Technology Used
 
 - html5
